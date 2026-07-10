@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Kolhapur, Maharashtra"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "9876543***"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "yashsatpute2006gmail.com"
+  }
+]

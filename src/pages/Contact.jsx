@@ -1,10 +1,21 @@
 export const Contact = () => {
+
+
+    const handleFormSubmit = (formData) => {
+        console.log(formData.entries());
+        const formInputData = Object.fromEntries(formData.entries())
+        console.log(formInputData);
+        
+        
+    }
+
     return (
         <section className="section-contact">
             <h2 className="container-title">
                 COntact Us
             </h2>
-            <form action="">
+            <div className="contact-wrapper container">
+            <form action={handleFormSubmit}>
                 <input 
                 type="text"
                 required 
@@ -30,7 +41,11 @@ export const Contact = () => {
                 rows="10"
                 placeholder="Enter Your Message"
                 ></textarea>
+
+                <button type="submit" value="send">Send</button>
             </form>
+
+            </div>
         </section>
     )
 }
