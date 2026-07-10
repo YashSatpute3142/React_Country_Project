@@ -1,3 +1,15 @@
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { HeroSection } from "../componants/UI/HeroSection";
+import { About } from "./About";
+
 export const Home = () => {
-    return <h1>Hoome Page </h1>
+    return (
+        
+        <>
+        <HeroSection />
+        <About />
+        </>
+   
+
+    );
 }
