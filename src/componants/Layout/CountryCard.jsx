@@ -1,3 +1,5 @@
+import {NavLink} from "react-router-dom"
+
 export const CounteryCard = ({country}) => {
 
 const {
@@ -29,6 +31,10 @@ const {
                     <span className="card-descritpin">Capital</span>
                     {capitals?.[0]?.name || "No Capital"}
                 </p>
+
+                <NavLink to ={`/country/${names.common}`}>
+                    <button>Read More</button>
+                </NavLink>
             
 
             </div>

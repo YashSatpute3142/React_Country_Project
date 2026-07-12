@@ -12,3 +12,13 @@ export const getCounteryData = () => {
     },
   });
 };
+
+//HTTP get method for idvi country
+export const getCounteryIndData = (name) => {
+  return api.get("", {
+    params: {
+      "api-key": "rc_live_7639772fa90640f3996077b03ab0e77b",
+      q: name,
+    },
+  });
+}

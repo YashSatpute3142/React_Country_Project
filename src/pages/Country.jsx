@@ -12,8 +12,6 @@ export const Country = () => {
         startTransition(async() => {
            const res = await getCounteryData();
            setCountries(res.data.data.objects);
-           console.log(res.data.data.objects);
-           
         
         })
        

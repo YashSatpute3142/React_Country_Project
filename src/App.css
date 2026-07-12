@@ -591,3 +591,124 @@ ul{
   font-size: 14px;
   color: #878787;
 }
+
+/* Country Page */
+.country-card{
+  margin-top: 2rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+.country-section{
+  
+  
+  & .grid{
+    gap: 3.8rem;
+    max-width: 100rem;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  & img{
+    width: 100%;
+    max-width: 25rem;
+    margin: auto;
+  }
+}
+/* indivisual card container  */
+.country-details-card {
+  max-width: 100%;
+  margin: 6.4rem auto;
+  box-shadow: rgba(168, 163, 184, 0.15) 0px 48px 100px 0px;
+
+  & .container-card {
+    & .grid {
+      align-items: center;
+    }
+
+    & img {
+      width: 100%;
+      max-width: 30rem;
+      margin-bottom: 0;
+      height: auto;
+      justify-self: center;
+      align-items: center;
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 48px 100px 0px;
+    }
+  }
+
+  & .infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  & .country-card-backBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.section-searchFilter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+
+  & .container-card {
+    padding: 0.8rem 2.4rem;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  }
+
+  & input {
+    font-family: "urbanist";
+    font-size: 1.55rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0.05rem solid #fff;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  }
+
+  & .select-section {
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.6rem 2.4rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    font-family: "urbanist";
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+
+    & option {
+      background: linear-gradient(71deg, #080509, #1a171c, #080509);
+      color: rgba(255, 255, 255, 0.8);
+      padding: 0.6rem 2.4rem;
+      border-radius: 5rem;
+    }
+  }
+
+  & .select-section > option {
+    background-color: #080509;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.6rem 2.4rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+  }
+}
+
+::placeholder {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+}
+
