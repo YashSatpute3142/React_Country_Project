@@ -143,6 +143,7 @@ nav ul {
     background-color: #0d1212;
     width: 100%;
     box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
+    
   }
 
   .menu-mobile ul {
@@ -649,6 +650,7 @@ ul{
     justify-content: flex-end;
   }
 }
+/* Search - Filter */
 
 .section-searchFilter {
   width: 100%;
@@ -665,7 +667,10 @@ ul{
   & input {
     font-family: "urbanist";
     font-size: 1.55rem;
+    padding: 0.8rem;
     font-weight: bold;
+    margin-left: 12rem;
+    margin-top: 5rem;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
@@ -676,7 +681,7 @@ ul{
   & .select-section {
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
     color: rgba(255, 255, 255, 0.8);
-    padding: 0.6rem 2.4rem;
+    padding: 0.6rem 1.2rem;
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
     -moz-border-radius: 5rem;
@@ -687,6 +692,8 @@ ul{
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
+    margin-right: 12rem;
+    margin-top: 5rem;
 
     & option {
       background: linear-gradient(71deg, #080509, #1a171c, #080509);
@@ -702,6 +709,10 @@ ul{
     padding: 0.6rem 2.4rem;
     border-radius: 5rem;
     margin-top: 1rem;
+  }
+
+  & button{
+    margin-top: 5rem;
   }
 }
 

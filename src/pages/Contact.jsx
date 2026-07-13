@@ -12,7 +12,7 @@ export const Contact = () => {
     return (
         <section className="section-contact">
             <h2 className="container-title">
-                COntact Us
+                Contact Us
             </h2>
             <div className="contact-wrapper container">
             <form action={handleFormSubmit}>
@@ -20,7 +20,7 @@ export const Contact = () => {
                 type="text"
                 required 
                 className="form-control"
-                autoComplete="false"
+                autoComplete="off"
                 placeholder="Enter Your Name"
                 name="usename" />
 
@@ -29,7 +29,7 @@ export const Contact = () => {
                 className="form-control"
                 name="email"
                 required
-                autoComplete="false"
+                autoComplete="off"
                 placeholder="Enter Your Email"
                 />
 
@@ -37,7 +37,7 @@ export const Contact = () => {
                 name="message" 
                 className="form-control"
                 required
-                autoComplete="false"
+                autoComplete="off"
                 rows="10"
                 placeholder="Enter Your Message"
                 ></textarea>
